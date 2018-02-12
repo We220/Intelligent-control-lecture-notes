@@ -1,0 +1,63 @@
+Action selection - Doing the right thing at the right time
+Production is a tuple (sensory precondition, action)
+Production system set of productions use dto solve a particular problem
+
+Markov assumption
+	Holds when each context uniquely determines an action
+	Memory can help (Has a big impact on expectations and perceptions)
+
+Want optimality from action selection (Most optimal plan)
+But this is impossible - Satisficing is better (The most satisfactory one)
+
+Situation = snapshot of the world
+Fluients - true or false statements in a given situation
+Action maps situations to situations
+Function to transistion world from one state to the next
+
+Influential representation for actions
+	Preconditions
+	Delete list
+	Add list
+	Add and delete list together are the action
+
+All AI need designs
+
+Primitive facts persist between states
+Inferred facts not carried over and must be re-inferred
+Inefficient is difference between formal planning and reactive systems AI
+
+Sussman anomaly - Pursing a goal directly causes you to become stuck (Blocks on a table example)
+
+Forward chaining - start from world look for goal
+Backward chaining - Start at goal look back for current world
+Combine to limit combinatorics
+Affordances - perceptual system delivers set of possible actions with object ID (Sit on a chair, grab something)
+
+Robust behaviour - work well in variety of situations
+Brittle behaviour - fails immediately (Specific)
+Graceful degredation - Won't perform as well as normal but should do something (Don't just fail)
+
+Describing world in ways that can be sensed is the hard part
+
+Reactive/Dynamic planning
+Means action selection by look up
+Plans used as communication
+Need to be adaptable to the unseen
+Methods of Dynamic planning 
+	Environmental Determinism
+	Finite state machines
+	Basic reactive plans
+
+Don't specify actions that the world will take itself (Transistions)
+Focus on intentional goals need to handle contingencies
+
+Basic reactive plans
+	Prioritised list of actions converging to a goal. Guarded by enivronmental context requirement
+	STRIPS triangle table is an example of this
+	Exploit representations and insights of earlier AI planning (Preconditions)
+	Reactive - pre-programmed little real time search
+
+Learning plans
+Learn by observation
+	Create Markov model of knowlegeable agent actions
+	Markov model used as reactive planned
