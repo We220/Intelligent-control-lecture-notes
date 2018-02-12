@@ -1,0 +1,17 @@
+Why human like
+	Nature provided best examples of intelligence
+	Problems of real time systems different from others that are less constrained (Google)
+	Building these systems allows us to appreciate complexity and finess of nature
+
+Spending concious cycles is not necessarily the hardest part of intelligent behaviour
+Some problems solved for you or by you
+
+Intelligence
+	Judged by expressed behaviour, Judged by people or natural selection
+	Do the right thing at the right time
+	Different situations cause different levels of intelligence
+
+Behaviour is the interaction between an agent and its environment
+Components - Morphology (Shape), Sensing, Action reflexes/Motor skills, Cognition (Real time search)
+
+Trade-offs in making a robot intelligent, requires a combination of all components to varying degrees
