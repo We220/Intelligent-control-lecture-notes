@@ -1,0 +1,103 @@
+Learning and Memory in cognitive systems
+
+Expectations is the difference between perception and sensing
+Bayes Theorem is a way to figure out what could happen depending on what you know
+
+Expectations
+	Some priors are hard coded (Sensing, body shape, neural connectivity)
+	These are derived from experience of evolution or the designer (Still priors to help turn sensing to action)
+	Other expectations derived from individuals experience (Learning)
+
+Learning
+	Need:
+		Representation
+		Acting on current evidence
+		Incorporate feedback on out of the guess (Improve the guess), Error correction (Updating)
+	Not just memorisation
+	Right thing at the right time (Intelligent)
+	Need to handle unexpected outcomes (Predicting)
+	Perceptually aliased -  don't know what the next thing to do
+	Prediction done by generalising previous experience
+	Won't be in same context still want to do something based on what worked/didn't before
+
+Supervised learning
+	Two methods
+	Regression - fitting a curve to data
+	Classification - Which actions should you take
+
+Unsupervised learning
+	If you don't know how to do something how do you do it
+	Need some feedback to update
+	Generally there is some sort of supervisation or reinforcement
+
+What is called supervised or not supervised is arbitrary always some feedback
+Info comes from somewhere either in representation, serached domain or error signal
+Which representations work best for which problem
+
+Regression
+	Start with a guess and use data you have to improve it
+	Sum of squares, reduce the equation
+	Based on parameter w (Weight)
+	Want to minimise error function
+	take derivative respect to w
+	then go down
+	Least squares easier to implement and to run
+	Quality of this degrades and assumption doesn't hold
+
+Over fitting
+	End up memorising everything
+	But you do worse on data you haven't seen but better on data you have
+	However with more data it fits better
+	Better model to memorise what you are doing
+	No error signal to learn from with memorisation
+
+Regularisation
+	Penalise large coefficient values
+	Add lambda parameter
+
+Nearest neighbour
+	Memorise what you did before and then pick the nearest one next
+
+Neural Networks
+	Perceptron each input weighted and summed and then sent out
+	Connect them together and the one with the highest sends out (Winner takes all)
+	Now called linear classifier as you need to draw a line between the data
+	Intuitive, easy, algorithmic and attractive, biologically inspired
+	learned like people
+	Perceptron was proved to not be able to solve basic problems
+	Realised you could solve this with backpropagation
+
+Learning rate
+	How much you add or subtract from weight determines how fast you learn
+	If learn too fast overshoot ideal value
+	Too slow may take too long to reach it
+	Want to converge on right set of values
+
+How can you know if your problem is linearly separable
+Try it - scruffy
+Only use method in situations you can prove the outcome - neat
+For neat once known work well but may take long time or overlook solvable problems
+
+Evolution and genetic algorithms
+	Not as popular as neural networks for now
+	Evolution - Change over time
+	Evolution of life - change in and diversification of species over time
+	Natual selection -Scientific explanation of observed data
+	Evolution requires variation, reproduction and selection
+	With all 3 of these conditions you will get change/optimisation to the selection criteria
+	Powerful for learning and concurrent search
+	Genes are instruction set that can produces a new organism
+	Genes can replicate more perfectly than whole animals and affect behaviour traits can evolve
+
+Bias provided by phylogeny(evolution history)
+search space determined by variation in population
+Greater variation faster you evolve
+Learning to learn - evolvability
+
+Evolution in AI
+Variation in some trait
+Reproduction with inheritance
+	Often asexual with noise (Occasional crossover between two or more parents)
+Selection resulting in population change
+	Can choose which carries over (Best ones), mainly reliant on success
+Fixation going to a point where they are all doing a certain action (e.g. talking)

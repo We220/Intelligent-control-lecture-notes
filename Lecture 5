@@ -1,0 +1,74 @@
+Perception and memory in cognitive systems
+
+Perception - What you THINK is going on
+	Include expectations (Priors)
+	Need it to disambiguate noisy and bad sensory info
+
+Basic natural CPU
+	Audio processed straight away, visual has to go to the back of the brain (Light faster than sound)
+	Plans come through the frontal lobe
+	Cell body sums info from dendrites in real time
+	Sensory info sent out through axon
+	Whole thing computes and senses
+	Signal takes time to propagate, one cell may get 2 messages from same axon
+	Different types and configurations of nerve cells
+
+Eye works
+	Lens focuses world on back of the eye
+	Rods and cones respond top light falling on them
+	Bipolar cells combin info, detect edges and gradients
+	Ganglian cells aggregate bipolar cells, detect colour, brightness changes info sent to back of brain
+	Single rod/cone aggregated by multiple ganglian cells
+	Different cells react to different conditions
+	Info projected back to visual cortex
+	retinotopic maps respond to different edges and motions
+	Just as much coming in to the eye as away from it
+
+Associative cortices
+	Features aggregated into objects
+	Still get maps for different things (Poses)
+	Different systems for what vs where done in parallel
+
+Fissure between sensing and action
+Allows for more cognition to prevent action as you can interrupt actions
+Sensing alon impossible to discriminate
+Brain looks for regualrities and then represents them (looks for patterns)
+When you get some new information it can change your perceptions and patterns
+Nerve connections strengthened when both sides fire in sequence
+
+Brains job
+	Pattern recognition
+	Changing actions/developing skills
+	Discovering concepts/categories for contexts to apply actions
+	Optimising representations
+	Doing this all the time
+
+In AI perception/actions modules (Bottom layer)
+Reactive plans to arbitrate between them
+Planner (Maybe) or goal arbitration at the top
+Vertebrate brain can be thought of in the same way
+
+Hippocampus is where we think consicousness is (Used for chained planning/trickier things)
+Many architectures separate episodic/working memory from long term memory
+Few have process emphasis of brain (Smoothing)
+Brooks sensing to action modules are alomist ubiquitous in AI
+
+Some work hard not to do that (Deep learning)
+Use a single function to solve all AI
+Complete systems need more structure (Driverless cars)
+
+Modularity in cognitive science
+	Two kinds of modules
+	Vertical (Sensing or motor skills), Horizontal (Cross talk, language, reasoning)
+	Brooks sort of super vertical (Sense and act)
+	In nature you can see both horizontal and vertical divisions
+	Horizontal - specialist mapping regions
+	Veritcal - cone of perceptual processing leading to single decision cell that coordinates decending cone of motor activation
+		Stimulating one of these cells gives a complex sensory reaction (Opening and closing mouth)
+		Lots of different parts that link in to the cell
+		Species typical behaviour, multi-modal stimuli
+
+Same inputs can be useful for different actions
+Individual neurons can't know whether they are the winner while processing
+Shift continuously with stimuli
+Mexican hat function - Activate yourself, inhibite cells close to you, influence those close to you

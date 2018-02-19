@@ -1,0 +1,116 @@
+Cognitive architechtures
+	What kinds of parts does the system need
+		Ontology
+	How should parts be put together
+		Development methodology
+	How is the whole thing arranged
+		Architecture
+
+Can be multiple cognitive architectures (oxymoron)
+People looking for generic plan for building real AI
+Used to be popular research area not so much now
+Evolutionary history tells us about what worked and didn't
+
+Past doesn't predict the future for AI
+Hardware changes change what is possible
+
+How do you bias/constrain/focus cognition so it works (real time planning  or machine learning)
+	Where do you put sensors/what do they need to know
+
+Sensing to action (Associative learning)
+	Basic component of intelligence
+	Problem is search need arbitration mechanism
+
+Architecture needs action from perception and further structure to combat combinatorics
+Needs productions and problem spaces, real time is hard
+Goal ordering needs to be flexible
+Structured dynamic plans make it easier to get your robot to do complext stuff
+Automated planning not used often
+To facilitate automated palnning modularity often compromised
+Maybe you don't want productions as basic representation (May want to come between sense and act)
+Architecture looks different if you worry about human linguistic/literature behaviour rather than making something work
+Talk about architecture for a system now (Specific robots)
+
+Expert systems allow choice of policies (non work perfectly)
+	recency - What you used recently use it
+	utility - Keep track of what was used before and if it was successful (May not be good in things that only need to be used once in a while) 
+	random
+	Use a combination of them
+	Encode knowledge of domain expert as productions replace with AI
+	Hype in 80's but they were a failure
+	Still exist in certain use cases - Circuit board checking, fraud
+	Issue was experts don't know why they do what they do, report novice knowledge
+	Often do what they were told to do (e.g. Language) don't realise how you have become skilled
+	Swiss cheese man example used smell
+
+SOAR
+	Breaks the productions into sub-goals (Problem space)
+	Multiple things at the same time - impass
+	Reason about what to do
+	Productions work on predicate database
+	If more than one declare an impasse reason what to do
+	Remember the resolution as a chunk
+	Wanted to learn like a child does
+	Nobody wanted it, had a large overhead
+	Military use it for combat situations for strategy
+	Dealing with time was hard had to change lots of things - fixed action patterns in nature
+
+ACT-R
+	Thought they could solve everything by using bayesian
+	Couldn't get it to work without problem spaces from other solutions
+	Tried to fix SOAR
+	Easier to use
+	Models how children learn arithmetic
+	Logical and bayesian system to solve arbitration problem
+	Utility - implicit knowledge
+	Logic - explicit knowledge
+
+
+
+General problem solver
+	Seperated specific problem from reasoning system
+	SOAR was the next try
+
+Spreading activation networks
+	Inputs you see and that are goals, chains of things that you can do
+	Picks what is the current goal
+	The box with the most amount of activation gets done
+	different factors will impact what gets done
+	Doesn't work
+	More than two steps no convergence, can't do full action selection
+Tyrell extension
+	Consider all info and all actions at all times (miss something)
+	Favor consumatory actions by weighting and weight uncertainty
+	Too many parameters
+
+Subsumption
+	Used in gengis
+	Emphasis on sensing to action
+	Each FSM (Finite state machine) is a behaviour
+	Complex distributed arbitration
+	No learning
+	Worked
+Action from perception can provide further structure (Modules (Behaviour))
+Modules support iterative development
+Real time should be a core organising principle
+Good ideas can carry bad ideas a long way (No learning, hard action selection)
+
+Layered or Hybrid architectures
+Incorporate behaviours as smart primitives
+Use hierarchical dynamic plans for behavior sequencing
+(Allegedly) Some have automated planner to make plans for layer 2
+
+BDI - Belief, Desires, Intentions
+	Beliefs - predicates
+	Desires - goals and related dynamic plans
+	Intentions - current goal
+	Responds to emergencies
+	Reactive, not meant to be used all the time
+
+CogAff
+	Reflection on top
+	Reflexes
+	Sense and action separated
+	Heirarchy in action selection, goal swapping
+	Gap in our brains between sensing and action - Don't do the first thing we think of (Cognitive?)
+
