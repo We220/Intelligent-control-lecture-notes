@@ -1,0 +1,69 @@
+Scientific simulation and social structures
+
+Science branch of philosophy concerned with explanation
+Science explanations are checked by comparison to data (From the world)
+	Gathering data and also building explanations (Theory)
+
+Ultimate - Why the robots that turned right survive
+	Function - Lived due to what it did (Run away from loud noise)
+	Phylogeny - History of why it turns right (Egg to person), (How you got to run away legs)
+Proximate - Why did the robot turn right
+	Causation
+	Development
+Proximate and ultimate describe different things
+
+Unexpected result causes people to try and replicate it
+	If you can't doubt on original result (Done something wrong, not communicated well enough)
+	Succeed can get further evidence and test then extend the theory (Progression)
+
+simulation show if a Parsimonious model could explain the data
+	Increasing certainty not absolute
+Goals of replication
+	Validate experiment
+	Extend results
+		Explain more data
+		Understand model better
+
+Cognitive minimalism
+Egalitarian - Challenging someone that insults you
+bilateral aggression - fighting over it
+human-like reconciliation - Making up afterwards
+	Is this a cognitive strategy in monkeys
+	If not maybe it isn't one in use either
+
+Better quantitative data for monkeys than humans
+	Complete interaction statistics
+	Not significantly affected by observers
+
+Despotic - violent infrequent conflict, strict dominance hierarchy, don't talk back
+Egalitarian - more fights, but less violent
+
+Two theories of why there are differences
+	Migrate to an area with less resources, more violence, pressure for social structure (Hemelrijk)
+	Evolved conflict resolution behaviour, less violence, less pressure for social structure (Flack and de Waal)
+
+Hemelrijk model
+	Simple
+	differences attributed to greater variation in dominance rank in despotic
+	This is due to aggression level increasing (Vicious fights)
+	Side effect - dominants in centre of troop, subordinates outside (Convergent evidence)
+Challenges
+	Researchers working with monkeys thought something cognitive going on
+	Justification for complex model is to better match data
+	Do a replication
+	Two were done
+Replications found problems with the model
+	Predicts too much dominance volatility
+	Inverts observed female violence
+	More complex model justified
+
+Analysis methodology
+	Understand model
+	Find assumptions
+	Treat assumptions as data
+	Test predictions against data
+
+AI simulation is a method of doing science
+	Has to be checked against the real world data
+Can be a source of evidence for a theory
+

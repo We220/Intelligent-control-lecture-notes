@@ -1,0 +1,87 @@
+Design and Learnability
+
+Learning requires:
+	representation (State/evidence)
+	acting (Prediciton)
+	feedback (Learning algorithm)
+
+No free lunch theorem
+	No learning algorithm magically dismisses combinatorial complexity
+	But representation is part of the bias and therefore some types of learning converge faster
+	or more reliably in a particular problem space
+	Neural networks and Genetic algorithm have a lot of design similarities
+
+One thing that evolves is the capacity to evolve better
+Bias makes some things easier others harder
+
+Classification
+	Supervised learning
+
+Iterative learning algorithms
+Iterative learning and mapping
+	Not just about actions but where you are
+	Update belief about model of the world given your perception and knowledge of your own action
+	Google cars
+
+Expectation Maximisation algorithm
+	Have data points and models of causes
+	Models have parameters, not sure if they are right
+	Know what causes look like
+	E step (Expectation) - guess model is correct and because it is correct which data points are accounted for by the causes
+	Reassign data for each cause
+	Then you change model parameters of causes to improve your guess about the model
+	2 step iteration algorithm
+
+
+SLAM (Simultaneous Localisation and Mapping)
+	Need multiple models
+	Observation model - Probability of a measurement from a sensor given your position and the map
+	Motion model - probability an action does something e.g. move to a position
+	Beliefs about where you are going to be given you have done something and sensed stuff
+	Predicition - estimates
+	Lots of bayesian formulae
+
+Particle filters
+	Build a model of what you believe about an object that is changing
+	Use a Genetic like algorithm to handle that probability distributions aren't normal/gaussians
+	represent belief by random samples
+	Estimate non-gaussian, nonlinear processes
+	Sampling Importance Resampling (SIR) principle
+		Draw new generation of particles
+		Assign weight to each particle
+		Resampling
+	Kind of GA
+
+What good is a map
+	Need to know actions as well as location
+	Mammals learn maps and actions with hippocampus (Helps consolidate memory)
+	Different maps for different task contexts (What they want to do)
+	Can be thought of as a problem space
+
+Hippocampal learning
+	Sparse representation
+	Good for episodic memory - data
+	Indexes into concept memory (Neocortex) - model
+	New concepts make you unsure about episodic memory
+	Data used to update model (Sleeping, resting)
+
+Learning in modular systems
+	Modules control different aspects
+	Adaptive control for changing task context
+	Multiple controllers
+
+Polly Algorithm
+	First robot to use vision to navigate at 1m/sec
+	Assume you don't need to know about everything
+	Figures out what the floor was
+	Then would break a frame into a small grid and do specialised perception and hand coded map and task
+	Low res frame for faster processing
+	Chooses a direction to go based on the least obstruction
+	Floor is black other objects are white
+	What is in front is the floor
+	Landmarks recognised by 5x7 pixel images give certain location
+
+Learning has significant role in cognition, advances AI at the moment
+	Not just algorithms also hardware and systems engineering
+Learning never happens in vacuum
+	Learn different things and not at same rate

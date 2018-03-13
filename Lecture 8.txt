@@ -1,0 +1,74 @@
+Simulations, Agents and Science
+
+Simulation
+	They describe the problem
+	Simpler than real world, so simpler AI as working off of a simulation
+	Complexity of intelligence is a reflection of complexity of the world (Emergence from interaction)
+	Responding to the complex world makes you look complex
+
+Response to simulation critique
+	No longer bespoke, harder to cheat (More general)
+	Robots have less input and output mechanisms than natural intelligence, so are simpler
+	Review the environment (simulation) as well as the robot (intelligence)
+	Game AI built for graphics and engagement
+
+Agents
+	Animal or animat(new AI) (Agent to discriminate between robot and animal)
+	Module of a program treated anthropomorphically (Communicates to other parts via language, has beliefs, goals)
+	Simple entity representing an individual
+
+Actually comes from philosophy, anything that facilitates change (Not intelligence)
+Implies responsibility and intentionality (Authority)
+Principle agent problem - Can you align the rewards for the agents so the agents interests align with yours (Prevent corruption)
+
+New AI
+ABM - Agent based modelling (Operations research, how you run a buisness)
+MAS - Multi-agent systems
+Small overlap between these but not much
+
+Simulations as science
+	Simulation is a hypothesis, described so it can be run on a computer
+	Described so completely it can be run on a computer
+	Consequences of model assessed by sampling
+	Model behaviour compared to target systems using standard hypothesis testing
+	Output of model not data about the world
+	Data about the hypothesis or predictions of the hypothesis
+	One form of modelling
+	Other forms that have been around longer (Differential equations)
+
+Map of Germany problem
+	A map of Germany that leaves out no details will be the size of Germany
+
+Agent based modelling
+	Describe environment
+	Specify behaviour of individuals
+	See if consequences of individuals acting in the environment are what you predicted
+
+Build a model from intuition and then someone else or you simplifies it
+Simplicity/accuracy tradeoff
+Theory building is essential step of science
+Process of building simulation can uncover flaws in a model
+
+Flocking (Boids)
+	Separation - avoid crowding local flockmates (Too close move away)
+	Alignment - Steer towards average heading of local flockmates (Travel in same direction)
+	Cohesion - Move towards average position of local flockmates (If you are far away move towards the rest)
+ zor - zone of repulsion
+ zoo - zone of orientation
+ zoa - zone of attraction 
+
+Baldwin Effect
+	"Effect through which an initially learned response to the environmental change evolves a genetic basis"
+	Info can't pass into genome directly
+	Learning indirectly accelerates evolution
+	Impacts fitness of individual
+	Therefore increase or decrease fitness difference between genotypes
+	This will then accelerate or decelerate rate of genetic change
+	Phenotypic plasticity - learning
+	Traits that affect this are selected
+	Change fitness landscape, learning more likely at a different fitness
+
+Simulations run risk you've guessed incorrectly on the problem description
+Scientific theories include both problem description and solution
+
+
